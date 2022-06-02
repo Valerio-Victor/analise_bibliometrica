@@ -129,7 +129,7 @@ plotly::ggplotly(dinamica_palavras_graf) %>%
 
 # PRODUTIVIDADE DOS AUTORES
 
-```{r}
+```{r produtividade_autores, results = 'markup', echo = F, warning = F, message = F, error = F, fig.align ='center'}
 
 # Geração de Dados de Produtividade dos Autores:
 curva_lotka <- lotka(resultado)
